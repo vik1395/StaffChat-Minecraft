@@ -1,0 +1,8 @@
+Format: '&7[&6{TYPE} Chat&7] &c{NAME} &6: &r&e{MESSAGE}'
+# This is the format of the chat message that will come up in Moderator chat. '&*' represent color codes.
+Chat Color: Allow
+# Type "Allow" to allow players to use chat colors. Else type "Deny".
+Admin Chat Message Alias: '@'
+# An optional alias for /adminchat. Please Do not leave this empty.
+Mod Chat Message Alias: '#'
+# An optional alias for /modchat. Please Do not leave this empty.

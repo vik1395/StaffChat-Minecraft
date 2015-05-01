@@ -1,0 +1,28 @@
+name: StaffChat
+version: 1.2
+description: A plugin that allows two streams of chatting for staff.
+author: Vik1395
+
+main: me.vik1395.staffchat.StaffChat
+
+commands:
+  modchat:
+    description: Chat stream for mods.
+    aliases: [mc, md]
+    permission: staffchat.mod
+    usage: /mc [message], /md [message] or #[message]
+  adminchat:
+    description: Chat stream for admins.
+    aliases: [ac, ad]
+    permission: staffchat.admin
+    usage: /ac [message], /ad [message] or @[message]
+  actoggle:
+    description: Chat stream for admins.
+    aliases: [act, adt]
+    permission: staffchat.admin.toggle
+    usage: /actoggle, /act or /mdt
+  mctoggle:
+    description: Chat stream for admins.
+    aliases: [mct, mdt]
+    permission: staffchat.mod.toggle
+    usage: /mctoggle, /mct or /mdt
